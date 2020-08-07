@@ -1,0 +1,169 @@
+body    {
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-size: 18px; 
+    margin: 0;  
+}
+
+h1  {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+a   {
+color: white;
+text-decoration: none;
+font-weight: 300;
+transition: .3s;
+text-align: center;
+
+
+}
+
+a:hover {
+    color:white
+}
+
+
+
+p   {
+    color: #222222;
+    font-weight: 300;
+}
+
+.title {
+    width: 800px;
+    margin: auto;
+}
+
+.banner {
+    padding-top: 75px;
+    padding-left: 75px;
+}
+
+#button-face {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#button-insta {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#button-face {
+    background-color: #222222;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+}
+
+#button-insta {
+    background-color: #222222;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 25px; 
+    font-weight: 500;
+}
+
+#button-insta:hover {
+    background-color: #8d9a42;
+    color: white;
+}
+
+#button-face:hover {
+    background-color: #8d9a42;
+    color: white;
+}
+
+.cards-color {
+    background-color: #8d9a42;
+    width: 220px;
+    height: 270px;
+    margin: 30px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.3);
+}
+
+
+.cards-color-horizontal {
+    background-color: #8d9a42;
+    width: 270px;
+    height: 220px;
+    margin: 8px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.3);
+}
+.cards-color img {
+    width: 180px;
+    height: 230px;
+   object-fit: cover;
+   margin: 20px;
+
+    
+}
+
+.cards-color-horizontal img {
+    width: 230px;
+    height: 180px;
+   object-fit: cover;
+   margin: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    
+}
+
+.cards :hover{
+    background-color: #222222;
+}
+
+@media (max-width: 800px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+    
+    .cards-color {
+      width: auto;
+    }
+
+    .cards-color-horizontal {
+        width: auto;
+    }
+  }
+    
+  /* Container media queries */
+  @media (min-width: 500px) {
+    .container {
+      width: 400px;
+    }
+  }
+
+.footer {
+    background:  #222222;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.footer p{
+    color: white;
+}
+
+
